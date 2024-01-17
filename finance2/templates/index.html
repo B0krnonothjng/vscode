@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Stock Summary
+{% endblock %}
+
+{% block main %}
+<table class="table">
+    <tbody>
+     <tfoot>
+        <tr>
+            <td>Owned Money</td>
+            <td>{{ cash }}</td>
+        </tr>
+     </tfoot>
+    </tbody>
+  </table>
+{% endblock %}
